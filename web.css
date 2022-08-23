@@ -1,0 +1,113 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+p{
+    font-style: italic;
+}
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header{
+    height: 500px;
+    background-image: url("resources/header-bg.jpg");
+    background-size: 100% 100%;
+}
+
+.nav{
+    column-count: 2;
+}
+.nav> img{
+    display: flex;
+    width : 200px;
+    height : 100px;
+}
+.header1{
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+.header1>a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+button{
+ background-color: rgb(214, 211, 67);
+ color: white;
+ padding: 5px;
+ border: none;
+}
+.head1{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.col{
+    column-count: 3;
+}
+.services{
+    margin-top: 40px;
+    text-align: center;
+}
+.portfolio{
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(240, 239, 238);
+}
+img{
+    width: 100%;
+}
+
+.team{
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(240, 239, 238);
+}
+.tm>img{
+    width: 100px;
+    height: 100px;
+}
+.about>img{
+    width: 23%;
+    height: 100px;
+    text-align: center;
+}
+.fa-solid{
+    font-size: 50px;
+    background-color: rgb(214, 211, 67);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+.fa-brands{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+h1{
+    font-weight: 900;
+}
+h3{
+    font-weight: 300px;
+}
+.about{
+    padding-top: 30px;
+}
+.footer{
+    margin-top: 30px;
+    text-align: center;
+}
+.fa-solid>p{
+    display: flex;
+
+}
+.col2{
+    column-count: 2;
+}
